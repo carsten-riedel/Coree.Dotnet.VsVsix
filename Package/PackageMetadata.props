@@ -1,0 +1,31 @@
+<Project>
+
+  <!-- Package metadata-->
+  <!-- https://learn.microsoft.com/en-us/nuget/create-packages/package-authoring-best-practices -->
+
+  <PropertyGroup>
+    <Authors>Carsten Riedel</Authors>
+    <Owners>Carsten Riedel</Owners>
+    <Copyright>Copyright © Carsten Riedel 2023</Copyright>
+    <PackageId>Coree.Dotnet.VsVsix</PackageId>
+    <PackageTags>dotnet;tools;vsix;VSIXBootstrapper</PackageTags>
+	  <PackageProjectUrl></PackageProjectUrl>
+	  <RepositoryUrl></RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+    <Version>0.0.8</Version>
+     <Description>
+      <![CDATA[
+          Metapackage forwarding dotnet-vs-vsix to VSIXBootstrapper.exe
+	    ]]>
+    </Description>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <PackageIcon>Icon.png</PackageIcon>
+    <PackageReleaseNotes>$([System.IO.File]::ReadAllText("$(MSBuildThisFileDirectory)ReleaseNotes.txt"))</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)PackageRoot/**/*" Pack="true" PackagePath=""/>
+  </ItemGroup>
+
+</Project>
