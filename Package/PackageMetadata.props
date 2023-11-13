@@ -12,7 +12,7 @@
 	  <PackageProjectUrl></PackageProjectUrl>
 	  <RepositoryUrl></RepositoryUrl>
 	  <RepositoryType>git</RepositoryType>
-    <Version>0.0.8</Version>
+    <Version>0.1.0</Version>
      <Description>
       <![CDATA[
           Metapackage forwarding dotnet-vs-vsix to VSIXBootstrapper.exe
