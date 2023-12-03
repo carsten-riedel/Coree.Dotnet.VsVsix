@@ -6,7 +6,7 @@
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>dotnet-vs-vsix</ToolCommandName>
     <PackageOutputPath Condition=" '$(PackageOutputPath)' == '' ">$(MSBuildProjectDirectory)/Package/PackageOut</PackageOutputPath>
-    <LocalPackagesDir>C:\Users\Valgrind\localpackage</LocalPackagesDir>
+    <LocalPackagesDir>$(userprofile)\source\packages</LocalPackagesDir>
  </PropertyGroup>
   
  <Target Name="CopyToLocalPackages" AfterTargets="Pack" Condition="'$(LocalPackagesDir)'!=''">

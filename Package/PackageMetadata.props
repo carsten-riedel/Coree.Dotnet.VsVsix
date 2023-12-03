@@ -9,10 +9,10 @@
     <Copyright>Copyright © Carsten Riedel 2023</Copyright>
     <PackageId>Coree.Dotnet.VsVsix</PackageId>
     <PackageTags>dotnet;tools;vsix;VSIXBootstrapper</PackageTags>
-	  <PackageProjectUrl></PackageProjectUrl>
-	  <RepositoryUrl></RepositoryUrl>
+	  <PackageProjectUrl>https://github.com/carsten-riedel/Coree.Dotnet.VsVsix</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/carsten-riedel/Coree.Dotnet.VsVsix</RepositoryUrl>
 	  <RepositoryType>git</RepositoryType>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
      <Description>
       <![CDATA[
           Metapackage forwarding dotnet-vs-vsix to VSIXBootstrapper.exe
